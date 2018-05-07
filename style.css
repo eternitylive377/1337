@@ -1,19 +1,50 @@
 BODY{
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	background: #ECEBE4;
+	background: #FFF8E5;
 }
-input {
+.base{
+	margin-left: 20px;	
+}
+[name="calendar"]{
 	text-align: bottom;
-	font-size: 13px;
-	padding: 0 10px 7px 40px;
-	border: 1px inset #2C2B3C;
-	background: #ECEBE4;
+	font-size: 16px;
+	padding: 5px;
+	border: 1px inset #FFB53F;
+	background: #fcfcfc;
+	border-radius: 3px;
+}
+
+[name="skill"]{
+	text-align: bottom;
+	font-size: 16px;
+	padding: 5px;
+	border: 1px inset #FFB53F;
+	background: #fcfcfc;
+	border-radius: 3px;
+}
+
+[name="select"]{
+	background: #FFB53F;
+}
+
+[type="button"]{
+	text-align: bottom;
+	font-size: 16px;
+	padding: 5px;
+	border-radius: 3px;
+}
+[name="salary"]{
+	text-align: bottom;
+	font-size: 16px;
+	padding: 5px;
+	border: 1px inset #FFB53F;
+	background: #fcfcfc;
 	border-radius: 3px;
 }
 
 TABLE{
-	border: 1px double #ECEBE4;
-	border-spacing: 3px 5px;
+	border: 1px double #FFB53F;
+	border-spacing: 2px 2px;
 }
 
 TH {
@@ -24,14 +55,14 @@ TR{
 	background: #FBFEF9;
 }
 SPAN{
-	font-size: 20px;
+	font-size: 18px;
 }
 
 SELECT{
 	text-align: bottom;
-	font-size: 13px;
-	padding: 0 10px 7px 40px;
-	border: 1px inset #2C2B3C;
-	background: #ECEBE4;
+	font-size: 16px;
+	padding: 5px;
+	border: 1px inset #FFB53F;
+	background: #fcfcfc;
 	border-radius: 3px;
 }
