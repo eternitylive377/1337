@@ -1,0 +1,37 @@
+BODY{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background: #ECEBE4;
+}
+input {
+	text-align: bottom;
+	font-size: 13px;
+	padding: 0 10px 7px 40px;
+	border: 1px inset #2C2B3C;
+	background: #ECEBE4;
+	border-radius: 3px;
+}
+
+TABLE{
+	border: 1px double #ECEBE4;
+	border-spacing: 3px 5px;
+}
+
+TH {
+	background: #FBFEF9;
+}
+
+TR{
+	background: #FBFEF9;
+}
+SPAN{
+	font-size: 20px;
+}
+
+SELECT{
+	text-align: bottom;
+	font-size: 13px;
+	padding: 0 10px 7px 40px;
+	border: 1px inset #2C2B3C;
+	background: #ECEBE4;
+	border-radius: 3px;
+}
