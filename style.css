@@ -2,8 +2,12 @@ BODY{
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	background: #FFF8E5;
 }
-.base{
+.base {
 	margin-left: 20px;	
+}
+.first-line {
+	display: inline-block;
+	vertical-align: top;
 }
 [name="calendar"]{
 	text-align: bottom;
@@ -18,7 +22,7 @@ BODY{
 	text-align: bottom;
 	font-size: 16px;
 	padding: 5px;
-	border: 1px inset #FFB53F;
+	border: 0px inset #FFB53F;
 	background: #fcfcfc;
 	border-radius: 3px;
 }
@@ -29,17 +33,24 @@ BODY{
 
 [type="button"]{
 	text-align: bottom;
+	cursor: pointer;
 	font-size: 16px;
 	padding: 5px;
 	border-radius: 3px;
+	border: 0px;
+	box-shadow: 4px 4px 1px rgba(0,0,0,0.2);
 }
 [name="salary"]{
 	text-align: bottom;
 	font-size: 16px;
 	padding: 5px;
-	border: 1px inset #FFB53F;
+	border: 0px inset #FFB53F;
 	background: #fcfcfc;
 	border-radius: 3px;
+}
+
+A{
+	font-size: 18px;
 }
 
 TABLE{
@@ -54,8 +65,22 @@ TH {
 TR{
 	background: #FBFEF9;
 }
+TBODY TR:hover {
+    background: #FFB53F; /* Цвет фона при наведении */
+   }
+
 SPAN{
 	font-size: 18px;
+}
+
+SELECT:hover{
+	text-align: bottom;
+	font-size: 16px;
+	padding: 5px;
+	border: 1px inset #FFB53F;
+	background: #fcfcfc;
+	//cursor: pointer;
+	border-radius: 3px;
 }
 
 SELECT{
@@ -64,5 +89,12 @@ SELECT{
 	padding: 5px;
 	border: 1px inset #FFB53F;
 	background: #fcfcfc;
+	cursor: pointer;
 	border-radius: 3px;
+}
+
+IMG{
+	margin-left: 20px; 
+	margin-right: 10px; 
+	margin-bottom: 10px;
 }
