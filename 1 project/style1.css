@@ -27,8 +27,15 @@ BODY{
 	border-radius: 3px;
 }
 
+[type="radio"]{
+	cursor: pointer;
+}
+
 [name="select"]{
 	background: #FFB53F;
+}
+label{
+	cursor: pointer;
 }
 
 [type="button"]{
@@ -40,6 +47,11 @@ BODY{
 	border: 0px;
 	box-shadow: 4px 4px 1px rgba(0,0,0,0.2);
 }
+
+[type="checkbox"]{
+	cursor: pointer;
+}
+
 [name="salary"]{
 	text-align: bottom;
 	font-size: 16px;
